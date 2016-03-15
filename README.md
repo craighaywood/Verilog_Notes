@@ -23,3 +23,10 @@ $ vvp <test_bench_name>.vpp
 #### View testbench
 vvp <test_bench_name>.vvp -lxt2  
 gtkwave dump.lxt  
+
+--------------------------------------------------------------------------------------------
+
+## Some simulation commands:
+
+$finish - exits the simulation and gives control back to the operating system.
+$stop - suspends the simulation and puts a simulator in an interactive mode.
